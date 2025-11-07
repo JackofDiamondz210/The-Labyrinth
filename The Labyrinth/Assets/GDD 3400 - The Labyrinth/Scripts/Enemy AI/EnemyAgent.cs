@@ -36,7 +36,7 @@ namespace GDD3400.Labyrinth
 
         [SerializeField] private Transform _player;
 
-        //old code that would make the nemy travel around its spawn
+        //old code that would make the enemy travel around its spawn
         //private Vector3 _startPos;
 
         private float _nextRoamTime = 0f;
@@ -64,7 +64,6 @@ namespace GDD3400.Labyrinth
             // Grab and store the wall layer
             _wallLayer = LayerMask.GetMask("Walls");
 
-            //_startPos = transform.position;
         }
 
         public void Start()
